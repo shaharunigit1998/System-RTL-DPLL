@@ -376,7 +376,7 @@ res.v_phi = (svf.*(res.f.^-2));
 
 figure;
 semilogx(res.f,10*log10(res.v_phi));
-ylabel("DCO PHASE DB");
+ylabel("DCO PHASE [dBc/Hz]");
 xlabel("Hz")
 
 %Calculate Z as Frequency Vaiable
